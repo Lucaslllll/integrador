@@ -1,0 +1,27 @@
+CREATE DATABASE integrador
+CHARACTER SET utf8
+COLLATE utf8_general_ci;
+
+USE integrador;
+
+CREATE TABLE games(
+	id SMALLINT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(25),
+    descricao NVARCHAR(1000),
+    download VARCHAR(150) UNIQUE
+)CHARSET = utf8;
+
+CREATE TABLE materia(
+	id SMALLINT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(25),
+    game SMALLINT,
+    FOREIGN KEY (game) REFERENCES games(id)
+)CHARSET = utf8;
+
+CREATE TABLE usuario(
+	id SMALLINT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(20),
+    senha VARCHAR(15),
+	email VARCHAR(30) UNIQUE,
+    nascimento date
+);
