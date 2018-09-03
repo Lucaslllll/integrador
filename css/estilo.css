@@ -1,22 +1,24 @@
 
 		#principal
 		{
-			width: 1400px; 
-			height: 1400px;
-			margin: auto;
-			/*background: blue;*/
+			width: auto; 
+			height: auto;
+			background: #1F76E0;
+			border: 1px double #060E86;
 		}
-		/*menu*/
+		
 		#menu
 		{
-			width: 1200px;
+			width: auto;
 			height: 100px;
-			/*background: yellow;*/
+			background: white;
 			margin: 100px;
+			border: 1px double #060E86;
 		}
 		#menu ul
 		{
-			margin: 0px 0px 0px 500px;
+			float: right;
+			padding: 0px 0px 0px 0px;
 		}
 		#menu ul li
 		{
@@ -35,31 +37,33 @@
 			border-bottom: 3px dotted #DCEA15;
 
 		}
-		/*conteudo*/
+		
 		#conteudo
 		{
 			width: 600px;
 			height: 600px;	
-			/*background: green;*/
+			background: white;
 			float: left;
+			border: 1px double #060E86;
 		}
-		/*anuncio*/
+		
 		#anuncio
 		{
+			float: right;
 			width: 200px;
 			height: 600px;	
-			/*background: blue;*/
-			float: left;
-			margin: 0px 0px 0px 600px;
+			background: white;
+			border: 1px double #060E86;
 		}
-		/*rodape*/
+		
 		#rodape
 		{
-			width: 1000px;
-			height: 1000px;
-			/*background: gray;*/
-			margin-top: 1000px;
+			width: auto;
+			height: 100px;
+			background: white;
+			margin-top: 1100px;
 			text-align: center;
+			border: 1px double #060E86;
 
 		}
 		

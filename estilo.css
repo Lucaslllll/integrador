@@ -4,14 +4,14 @@
 			width: 1400px; 
 			height: 1400px;
 			margin: auto;
-			/*background: blue;*/
+			background-color: green;
 		}
 		/*menu*/
 		#menu
 		{
 			width: 1200px;
 			height: 100px;
-			/*background: yellow;*/
+			background: white;
 			margin: 100px;
 		}
 		#menu ul
@@ -40,7 +40,7 @@
 		{
 			width: 600px;
 			height: 600px;	
-			/*background: green;*/
+			background: white;
 			float: left;
 		}
 		/*anuncio*/
@@ -48,7 +48,7 @@
 		{
 			width: 200px;
 			height: 600px;	
-			/*background: blue;*/
+			background: white;
 			float: left;
 			margin: 0px 0px 0px 600px;
 		}
@@ -57,7 +57,7 @@
 		{
 			width: 1000px;
 			height: 1000px;
-			/*background: gray;*/
+			background: white;
 			margin-top: 1000px;
 			text-align: center;
 
