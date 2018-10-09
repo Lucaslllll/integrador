@@ -1,69 +1,84 @@
 
-		#principal
+		.principal
 		{
-			width: auto; 
-			height: auto;
-			background: #1F76E0;
-			border: 1px double #060E86;
+			margin: 0 auto;
+			background-image: url("../imagens/fundo4.png");
+			/*background-repeat: no-repeat;*/
+			background-attachment: fixed;
+			background-position: center;
+			/*background: #1F76E0;*/
+			border: 1px double #5F80AF;
+			
 		}
 		
-		#menu
+		.menu
 		{
-			width: auto;
-			height: 100px;
-			background: white;
+			background: #DDE8E3;
 			margin: 100px;
-			border: 1px double #060E86;
+			border: 1px double #5F80AF;
 		}
-		#menu ul
+		.menu ul
 		{
 			float: right;
+			margin-right: 30px;
 			padding: 0px 0px 0px 0px;
 		}
-		#menu ul li
+		.menu ul li
 		{
 			display: inline-block;
 			margin: 0px 0px 0px 90px;
 			
 		}
-		#menu ul li a
+		.menu ul li a
 		{
 			color: #121210;  
 		}
-		#menu ul li a:hover
+		.menu ul li a:hover
 		{
-			background-color: green;
-			color: #DCEA15;
+
+			background-color: #0B3B17;
+			color: #DED257;
 			border-bottom: 3px dotted #DCEA15;
 
 		}
 		
-		#conteudo
+		.conteudo
 		{
-			width: 600px;
-			height: 600px;	
-			background: white;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			background: #DDE8E3;
 			float: left;
-			border: 1px double #060E86;
+			border: 1px double #5F80AF;
 		}
-		
-		#anuncio
+	
+		.anuncio
 		{
-			float: right;
-			width: 200px;
-			height: 600px;	
-			background: white;
-			border: 1px double #060E86;
+			margin: 0 auto;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			margin-bottom: 300px;
+			float: left;
+			background: #DDE8E3;
+			border: 1px double #5F80AF;
+			opacity: 0.9;
+
 		}
-		
-		#rodape
+		.img
 		{
 			width: auto;
-			height: 100px;
-			background: white;
-			margin-top: 1100px;
+			height: auto; 
+			padding-top: 20px;
+			padding-bottom: 20px;
+
+		}
+		.rodape
+		{
+			width: 1200px;
+			clear: both;
+			background: #DDE8E3;
+			margin: 0 auto;
 			text-align: center;
-			border: 1px double #060E86;
+			border: 1px double #5F80AF;
 
 		}
 		
