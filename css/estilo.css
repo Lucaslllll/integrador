@@ -11,7 +11,7 @@
 		{
 			width: auto;
 			height: 100px;
-			background: white;
+			background: #D9D7D7;
 			margin: 100px;
 			border: 1px double #060E86;
 		}
@@ -42,7 +42,7 @@
 		{
 			width: 600px;
 			height: 600px;	
-			background: white;
+			background: #D9D7D7;
 			float: left;
 			border: 1px double #060E86;
 		}
@@ -52,7 +52,7 @@
 			float: right;
 			width: 200px;
 			height: 600px;	
-			background: white;
+			background: #D9D7D7;
 			border: 1px double #060E86;
 		}
 		
@@ -60,7 +60,7 @@
 		{
 			width: auto;
 			height: 100px;
-			background: white;
+			background: #D9D7D7;
 			margin-top: 1100px;
 			text-align: center;
 			border: 1px double #060E86;
