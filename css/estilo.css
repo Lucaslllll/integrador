@@ -1,83 +1,64 @@
-		.bg{
-			background-image: url("../imagens/fundo4.png");
-			/*background-repeat: no-repeat;*/
-			background-attachment: fixed;
-			background-position: center;
-		}
-		
-		.principal
-		{
-			margin: 0 auto;
-		}
-		.navbar-brand{
-			color: black;
-		}
-		.navbar-brand:hover{
-			color: black;
-		}
-		.menu{
-			background: #DDE8E3;
-			margin: 100px;
-			border: 1px double #5F80AF;	
-		}
-		.menu ul
-		{
-			float: left;
-			padding: 0px 0px 0px 0px;
-			margin: 0 auto;
-		}
-		.menu ul li
-		{
-			display: inline-block;
-			margin: 0px 0px 0px 90px;
-			
-		}
-		.menu ul li a
-		{
-			color: #121210;  
-		}
-		.menu ul li a:hover
-		{
-			color: green;
-		}
-		
-		.conteudo
-		{
-			padding-top: 50px;
-			padding-bottom: 50px;
-			background: #DDE8E3;
-			float: left;
-			border: 1px double #5F80AF;
-		}
-	
-		.anuncio
-		{
-			margin: 0 auto;
-			padding-top: 20px;
-			padding-bottom: 20px;
-			margin-bottom: 300px;
-			float: left;
-			background: #DDE8E3;
-			border: 1px double #5F80AF;
-			opacity: 0.9;
-
-		}
-		.img
-		{
-			width: auto;
-			height: auto; 
-			padding-top: 20px;
-			padding-bottom: 20px;
-
-		}
-		.rodape
-		{
-			width: 1200px;
-			clear: both;
-			background: #DDE8E3;
-			margin: 0 auto;
-			text-align: center;
-			border: 1px double #5F80AF;
-
-		}
+.bg{
+	background-image: url("../imagens/fundo4.png");
+	/*background-repeat: no-repeat;*/
+	background-attachment: fixed;
+	background-position: center;
+}
+.navbar-brand{
+	color: black;
+}
+.navbar-brand:hover{
+	color: black;
+}
+.menu{
+	background: #DDE8E3;
+	margin: 50px 0px 50px 0px;
+	border: 1px double #5F80AF;	
+}
+.menu ul{
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin: 0 auto;
+}
+.menu ul li{
+	display: inline-block;
+	margin: 0px 0px 0px 10px;
+}
+.menu ul li a{
+	color: #121210;  
+}
+.menu ul li a:hover{
+	color: green;
+}		
+.conteudo{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #DDE8E3;
+	float: left;
+	border: 1px double #5F80AF;
+}
+.anuncio{
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 300px;
+	float: left;
+	background: #DDE8E3;
+	border: 1px double #5F80AF;
+	opacity: 0.9;
+}
+.img{
+	width: auto;
+	height: auto; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.rodape{
+	width: 1200px;
+	clear: both;
+	background: #DDE8E3;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px double #5F80AF;
+}
 		
