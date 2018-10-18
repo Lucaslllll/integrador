@@ -14,15 +14,29 @@
 	background: #DDE8E3;
 	margin: 50px 0px 50px 0px;
 	border: 1px double #5F80AF;	
+	height: 55px;
+	max-width: 100%;
 }
-.menu ul{
-	float: left;
+.menucat{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	max-width: 100%;
+}
+.menu .abas{
 	padding: 0px 0px 0px 0px;
-	margin: 0 auto;
+	position: relative;
 }
 .menu ul li{
 	display: inline-block;
 	margin: 0px 0px 0px 10px;
+}
+.menu ul li.nav-item:hover{
+	border-bottom: dashed 3px;
+	/*border-top: solid 3px;*/
+	/*border-top-color: darkgreen;*/
+	border-bottom-color: darkgreen;
+	transition: 0.1s;
 }
 .menu ul li a{
 	color: #121210;  
@@ -30,6 +44,7 @@
 .menu ul li a:hover{
 	color: green;
 }		
+
 .conteudo{
 	padding-top: 50px;
 	padding-bottom: 50px;
