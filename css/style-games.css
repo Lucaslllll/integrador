@@ -1,0 +1,20 @@
+.games{
+	width: 90%;
+	height: 600px;
+	background:	url(../imagens/fundo5.png);
+	background-repeat: repeat;
+	margin: 0 auto;
+	border: 2px double black;
+}
+body{
+	background: #DDE8E3;
+}
+.detalhes{
+	text-align: center;
+	padding: 5px;
+}
+.rodape{
+	padding: 20px;
+	background: #DDE8E3;
+	text-align: center;
+}
