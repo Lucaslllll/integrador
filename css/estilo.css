@@ -37,7 +37,7 @@
 	color: white;  
 }
 .menu ul li a:hover{
-	color: green;
+	color: white;
 }		
 
 .conteudo{
@@ -48,21 +48,24 @@
 	border: 1px double #5F80AF;
 }
 .anuncio{
-	margin: 0 auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin-bottom: 300px;
-	float: left;
-	background: #DDE8E3;
-	border: 1px double #5F80AF;
-	opacity: 0.9;
-}
-.img{
-	width: auto;
-	height: auto; 
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
+ 	margin: 0 auto;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	margin-bottom: 300px;
+ 	float: left;
+ 	background: #DDE8E3;
+ 	border: 1px double #5F80AF;
+ 	opacity: 0.9;
+ }
+ .img{
+ 	width: 5%;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ }
+ img{
+ 	width: auto;
+ 	height: 200px;
+ }
 .rodape{
 	width: 1200px;
 	clear: both;
@@ -227,3 +230,4 @@
 	text-align: center;
 	border: 1px double #5F80AF;
 }
+*/
