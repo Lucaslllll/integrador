@@ -5,31 +5,41 @@
 	background-position: center;
 }
 .navbar-brand{
-	color: black;
+	color: white;
 }
 .navbar-brand:hover{
-	color: black;
+	color: white;
 }
 .menu{
 	background: #DDE8E3;
-	margin: 50px 0px 50px 0px;
-	border: 1px double #5F80AF;	
+	margin: 0px 0px 20px 0px;
+	height: 55px;
+	max-width: 100%;
 }
-.menu ul{
-	float: left;
-	padding: 0px 0px 0px 0px;
-	margin: 0 auto;
+.menucat{
+	position: relative;
+	height: 100%;
+	width: 100%;
 }
+
 .menu ul li{
 	display: inline-block;
 	margin: 0px 0px 0px 10px;
 }
+/*.menu ul li.nav-item:hover{*/
+	/*border-bottom: dashed 3px;*/
+	/*border-top: solid 3px;*/
+	/*border-top-color: darkgreen;*/
+	/*border-bottom-color: darkgreen;*/
+	/*transition: 0.1s;*/
+/*}*/
 .menu ul li a{
-	color: #121210;  
+	color: white;  
 }
 .menu ul li a:hover{
 	color: green;
 }		
+
 .conteudo{
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -61,4 +71,159 @@
 	text-align: center;
 	border: 1px double #5F80AF;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*		#principal
+		{
+			width: auto; 
+			height: auto;
+			background: #1F76E0;
+			border: 1px double #060E86;
+		}
 		
+		#menu
+		{
+			width: auto;
+			height: 100px;
+			background: #D9D7D7;
+			margin: 100px;
+			border: 1px double #060E86;
+		}
+		#menu ul
+		{
+			float: right;
+			padding: 0px 0px 0px 0px;
+		}
+		#menu ul li
+		{
+			display: inline-block;
+			margin: 0px 0px 0px 90px;
+			
+		}
+		#menu ul li a
+		{
+			color: #121210;  
+		}
+		#menu ul li a:hover
+		{
+			background-color: green;
+			color: #DCEA15;
+			border-bottom: 3px dotted #DCEA15;
+
+		}
+		
+		#conteudo
+		{
+			width: 600px;
+			height: 600px;	
+			background: #D9D7D7;
+			float: left;
+			border: 1px double #060E86;
+		}
+		
+		#anuncio
+		{
+			float: right;
+			width: 200px;
+			height: 600px;	
+			background: #D9D7D7;
+			border: 1px double #060E86;
+		}
+		
+		#rodape
+		{
+			width: auto;
+			height: 100px;
+			background: #D9D7D7;
+			margin-top: 1100px;
+			text-align: center;
+			border: 1px double #060E86;
+
+		}
+.bg{
+	background-image: url("../imagens/fundo4.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+.navbar-brand{
+	color: white;
+}
+.navbar-brand:hover{
+	color: white;
+}
+.menu{
+	background: #DDE8E3;
+	margin: 0px 0px 20px 0px;
+	height: 55px;
+	max-width: 100%;
+}
+.menucat{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.menu ul li{
+	display: inline-block;
+	margin: 0px 0px 0px 10px;
+}
+.menu ul li.nav-item:hover{*/
+	/*border-bottom: dashed 3px;*/
+	/*border-top: solid 3px;*/
+	/*border-top-color: darkgreen;*/
+	/*border-bottom-color: darkgreen;*/
+	/*transition: 0.1s;*/
+/*}
+.menu ul li a{
+	color: white;  
+}
+.menu ul li a:hover{
+	color: green;
+}		
+
+.conteudo{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #DDE8E3;
+	float: left;
+	border: 1px double #5F80AF;
+}
+.anuncio{
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 300px;
+	float: left;
+	background: #DDE8E3;
+	border: 1px double #5F80AF;
+	opacity: 0.9;
+}
+.img{
+	width: auto;
+	height: auto; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.rodape{
+	width: 1200px;
+	clear: both;
+	background: #DDE8E3;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px double #5F80AF;
+}
