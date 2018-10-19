@@ -6,6 +6,20 @@
 	margin: 0 auto;
 	border: 2px double black;
 }
+.menucat{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.navbar-brand{
+	color: white;
+}
+.navbar-brand:hover{
+	color: white;
+}
+.menu ul li a{
+	color: white;  
+}
 body{
 	background: #DDE8E3;
 }
