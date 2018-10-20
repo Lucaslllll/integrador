@@ -1,3 +1,8 @@
+.texto{
+	text-align: justify;
+	font-size: 18px;
+	font-family: "Times New Roman";
+}
 .menu{
 	background: #DDE8E3;
 	margin: 0px 0px 20px 0px;
@@ -22,12 +27,16 @@
 .menu ul li a{
 	color: white;  
 }
+.ce{
+	margin: 0 auto;
+	text-align: center;
+}
+img{
+	height: 150px;
+	width: 150px;
+}
 body{
 	background: #DDE8E3;
-}
-.con{
-	padding: 10px;
-	text-decoration: underline;
 }
 .rodape{
 	margin-top: 200px;

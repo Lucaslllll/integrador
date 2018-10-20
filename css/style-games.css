@@ -6,6 +6,12 @@
 	margin: 0 auto;
 	border: 2px double black;
 }
+.menu{
+	background: #DDE8E3;
+	margin: 0px 0px 20px 0px;
+	height: 55px;
+	max-width: 100%;
+}
 .menucat{
 	position: relative;
 	height: 100%;
@@ -16,6 +22,10 @@
 }
 .navbar-brand:hover{
 	color: white;
+}
+.menu ul li{
+	display: inline-block;
+	margin: 0px 0px 0px 10px;
 }
 .menu ul li a{
 	color: white;  
@@ -28,6 +38,7 @@ body{
 	padding: 5px;
 }
 .rodape{
+	margin-top: 200px;
 	padding: 20px;
 	background: #DDE8E3;
 	text-align: center;
