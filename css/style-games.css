@@ -30,6 +30,15 @@
 .menu ul li a{
 	color: white;  
 }
+.cor{
+	background: transparent;
+	color: white;
+	border: 1px solid #DDE8E3;
+}
+.cor:hover{
+	background: #DDE8E3;
+	transition: 0.5s;
+}
 body{
 	background: #DDE8E3;
 }
