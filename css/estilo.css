@@ -84,10 +84,21 @@ img{
 	height: 25em;
 }
 
-div.carousel-item{
+.carousel-caption{
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 10px;
+	opacity: 0.5;	
+}
+.carousel-caption:hover{
+	background: rgba(0, 0, 0, 1);
+	opacity: 1;
 
 }
-
+.carousel-caption > h5{
+	padding: 0px 3px 15px 3px;
+	border-bottom: 1px solid white;
+}
+/*Fim do carousel*/
 .rodape{
 	width: 1200px;
 	clear: both;
