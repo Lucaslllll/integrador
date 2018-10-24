@@ -44,8 +44,11 @@ a:hover{
 .fo{
 	font-size: 0.8em;
 	color: white;
-	margin: 0 auto;
 
+}
+.img{
+	text-align: center;
+	margin: 0 auto;
 }
 img{
 	width: 70px;
