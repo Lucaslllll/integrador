@@ -108,14 +108,21 @@ img{
 }
 /*Fim do carousel*/
 .rodape{
-	width: 1200px;
 	clear: both;
 	background: #DDE8E3;
-	margin: 0 auto;
 	text-align: center;
-	border: 1px double black;
+	border-top: 1px double black;
+	width: 100%;
+	margin-top: 4px;
 }
 
+.rodape .rodape-conteudo{
+	padding: 0.5em;
+	display: inline;
+}
+.rodape .rodape-conteudo span{
+	font-style: italic;
+}
 
 
 
