@@ -26,13 +26,24 @@
 	display: inline-block;
 	margin: 0px 0px 0px 10px;
 }
-/*.menu ul li.nav-item:hover{*/
-	/*border-bottom: dashed 3px;*/
-	/*border-top: solid 3px;*/
-	/*border-top-color: darkgreen;*/
-	/*border-bottom-color: darkgreen;*/
-	/*transition: 0.1s;*/
-/*}*/
+.cor{
+	background: transparent;
+	color: white;
+	border: 1px solid #DDE8E3;
+}
+.cor:hover{
+	background: #DDE8E3;
+	transition: 0.5s;
+}
+
+/*.menu ul li.nav-item:hover{
+	border-bottom: dashed 3px;
+	border-top: solid 3px;
+	border-top-color: darkgreen;
+	border-bottom-color: darkgreen;
+	transition: 0.1s;
+}*/
+
 .menu ul li a{
 	color: white;  
 }
