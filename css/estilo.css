@@ -61,15 +61,33 @@
  	border: 1px double black;
  	opacity: 0.9;
  }
- .img{
+.img{
  	width: 5%;
  	padding-top: 20px;
  	padding-bottom: 20px;
  }
- img{
+img{
  	width: auto;
  	height: 200px;
  }
+
+/*Efeito carousel*/
+#corousel{
+	display: block;
+}
+.carousel-inner div.carousel-item > img{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,0);
+	margin-bottom: 10px;
+	width: 60em;
+	height: 25em;
+}
+
+div.carousel-item{
+
+}
+
 .rodape{
 	width: 1200px;
 	clear: both;
