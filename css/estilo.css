@@ -10,11 +10,11 @@
 .navbar-brand:hover{
 	color: white;
 }
+
+/*Menu*/
 .menu{
 	background: #DDE8E3;
 	margin: 0px 0px 20px 0px;
-	height: 55px;
-	max-width: 100%;
 }
 .menucat{
 	position: relative;
@@ -36,20 +36,13 @@
 	transition: 0.5s;
 }
 
-/*.menu ul li.nav-item:hover{
-	border-bottom: dashed 3px;
-	border-top: solid 3px;
-	border-top-color: darkgreen;
-	border-bottom-color: darkgreen;
-	transition: 0.1s;
-}*/
-
 .menu ul li a{
 	color: white;  
 }
 .menu ul li a:hover{
 	color: white;
 }		
+/*Fim Menu*/
 
 .conteudo{
 	padding-top: 50px;

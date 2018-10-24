@@ -6,12 +6,7 @@
 	margin: 0 auto;
 	border: 2px double black;
 }
-.menu{
-	background: #DDE8E3;
-	margin: 0px 0px 20px 0px;
-	height: 55px;
-	max-width: 100%;
-}
+
 .menucat{
 	position: relative;
 	height: 100%;
