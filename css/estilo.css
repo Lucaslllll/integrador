@@ -75,6 +75,7 @@ img{
 #corousel{
 	display: block;
 }
+
 .carousel-inner div.carousel-item > img{
 	position: relative;
 	left: 50%;
@@ -82,6 +83,7 @@ img{
 	margin-bottom: 10px;
 	width: 60em;
 	height: 25em;
+	border-radius: 10px;
 }
 
 .carousel-caption{
@@ -89,9 +91,10 @@ img{
 	border-radius: 10px;
 	opacity: 0.5;	
 }
-.carousel-caption:hover{
+#carousel:hover .carousel-caption{
 	background: rgba(0, 0, 0, 1);
 	opacity: 1;
+	transition: 0.2s;
 
 }
 .carousel-caption > h5{
