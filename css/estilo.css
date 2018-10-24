@@ -109,7 +109,7 @@ img{
 /*Fim do carousel*/
 .rodape{
 	clear: both;
-	background: #DDE8E3;
+	background: #343a40;
 	text-align: center;
 	border-top: 1px double black;
 	width: 100%;
@@ -119,6 +119,7 @@ img{
 .rodape .rodape-conteudo{
 	padding: 0.5em;
 	display: inline;
+	color: white;
 }
 .rodape .rodape-conteudo span{
 	font-style: italic;
