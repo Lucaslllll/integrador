@@ -72,10 +72,11 @@
  	padding-top: 20px;
  	padding-bottom: 20px;
  }
-img{
- 	width: auto;
- 	height: 200px;
- }
+/*Header inicio*/
+#header-home{
+	margin: 0 auto;
+}
+
 
 /*Efeito carousel*/
 #corousel{
@@ -83,9 +84,6 @@ img{
 }
 
 .carousel-inner div.carousel-item > img{
-	position: relative;
-	left: 50%;
-	transform: translate(-50%,0);
 	margin-bottom: 10px;
 	width: 100%;
 	height: 25em;
@@ -107,7 +105,15 @@ img{
 	border-bottom: 1px solid white;
 }
 /*Fim do carousel*/
-.rodape{
+/*Anuncio lateral*/
+.anuncio-lateral{
+}
+.img-anuncio{
+	height: 200px;
+	max-width: 100%;
+}
+
+.rodape-geral{
 	clear: both;
 	background: #343a40;
 	text-align: center;
@@ -117,13 +123,14 @@ img{
 	margin-top: 4px;
 }
 
-.rodape .rodape-conteudo{
+.rodape-geral .rodape-conteudo{
 	padding: 0.5em;
 	display: inline;
 	color: white;
 }
-.rodape .rodape-conteudo span{
+.rodape-geral .rodape-conteudo span{
 	font-style: italic;
+	font-size: 1em;
 }
 
 

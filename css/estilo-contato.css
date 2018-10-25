@@ -28,10 +28,13 @@
 body{
 	background: #DDE8E3;
 }
-.con{
-	padding: 10px;
-	text-decoration: underline;
+
+.enviar{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
 }
+
 .rodape{
 	margin-top: 200px;
 	padding: 20px;
