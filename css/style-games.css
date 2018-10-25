@@ -1,5 +1,5 @@
 .games{
-	width: 90%;
+	width: 80%;
 	height: auto;
 	background:	url(../imagens/fundo4.png);
 	background-repeat: repeat;
@@ -12,6 +12,13 @@ a{
 a:hover{
 	text-decoration: none;
 	color: white;
+}
+
+.lado{
+	margin-left: 10%;
+	padding: 10px;
+	display: inline-block;
+	margin-bottom: 7%;
 }
 
 .menucat{
@@ -32,6 +39,8 @@ a:hover{
 .menu ul li a{
 	color: white;  
 }
+
+/*iníciocores*/
 .cor{
 	background: transparent;
 	color: white;
@@ -41,6 +50,20 @@ a:hover{
 	background: #DDE8E3;
 	transition: 0.5s;
 }
+
+.cor2{
+	background: #212529;
+	color: white;
+	font-size: 18px;
+	padding: 5px;
+	border: 1px solid black;
+}
+.cor2:hover{
+	background: #DDE8E3;
+	transition: 0.5s;
+}
+/*fimcores*/
+
 .fo{
 	font-size: 0.8em;
 	color: white;
@@ -66,4 +89,5 @@ body{
 	padding: 20px;
 	background: #DDE8E3;
 	text-align: center;
+	clear: both;
 }
