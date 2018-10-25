@@ -52,10 +52,10 @@
 }		
 
 .conteudo{
+	clear: both;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	background: #DDE8E3;
-	float: left;
 	border: 1px double black;
 }
 .anuncio{
