@@ -1,0 +1,21 @@
+.centro{
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+
+}
+body{
+	background: #DDE8E3;
+}
+.b{
+	border-radius: 10px;
+	background: black;
+	color: white;
+	width: 70px;
+	height: 45px;
+}
+.ml{
+	border-radius: 10px;
+	border: 10px solid white;
+	width: 250px;
+}

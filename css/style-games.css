@@ -1,17 +1,19 @@
 .games{
 	width: 90%;
-	height: 600px;
-	background:	url(../imagens/fundo5.png);
+	height: auto;
+	background:	url(../imagens/fundo4.png);
 	background-repeat: repeat;
 	margin: 0 auto;
 	border: 2px double black;
 }
-.menu{
-	background: #DDE8E3;
-	margin: 0px 0px 20px 0px;
-	height: 55px;
-	max-width: 100%;
+a{
+	color: white;
 }
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+
 .menucat{
 	position: relative;
 	height: 100%;
@@ -38,6 +40,19 @@
 .cor:hover{
 	background: #DDE8E3;
 	transition: 0.5s;
+}
+.fo{
+	font-size: 0.8em;
+	color: white;
+
+}
+.img{
+	text-align: center;
+	margin: 0 auto;
+}
+img{
+	width: 70px;
+	height: 70px;
 }
 body{
 	background: #DDE8E3;
