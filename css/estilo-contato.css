@@ -38,6 +38,8 @@ body{
 .rodape{
 	margin-top: 200px;
 	padding: 20px;
-	background: #DDE8E3;
+	background: #343a40;
+	color: white;
 	text-align: center;
+	clear: both;
 }

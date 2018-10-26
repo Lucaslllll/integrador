@@ -19,3 +19,11 @@ body{
 	border: 10px solid white;
 	width: 250px;
 }
+.rodape{
+	margin-top: 200px;
+	padding: 20px;
+	background: #343a40;
+	color: white;
+	text-align: center;
+	clear: both;
+}
