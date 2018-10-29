@@ -1,4 +1,5 @@
 create database repositorio;
+use repositorio;
 
 create table cadastro(
 	id int auto_increment primary key, 
@@ -23,4 +24,3 @@ create table materia(
 	nomej text,
     foreign key (nome) references games (nome) 
 );
-
