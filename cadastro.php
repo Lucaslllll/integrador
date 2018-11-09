@@ -13,7 +13,7 @@
 	// echo "<p> Nome: ".$_POST["nome"]."</P>";
 
 	// Abrindo conexao
-	$conexao = mysqli_connect("127.0.0.1", "root", "", "info3");  
+	$conexao = mysqli_connect("127.0.0.1", "root", "", "repositorio");  
 	
 	if (!$conexao) {
 		echo msqli_connect_errno()."<br/>";
@@ -21,7 +21,7 @@
 		
 	}
 
-	$resultado = mysqli_query($conexao, "INSERT INTO info3.cadastro (nome, email, senha, nascimento, sexo) values ('".$_POST['nome']."', '".$_POST['email']."', '".$_POST['senha']."', '".$_POST['nascimento']."', '".$_POST['sexo']."');
+	$resultado = mysqli_query($conexao, "INSERT INTO repositorio.cadastro (nome, email, senha, nascimento, sexo) values ('".$_POST['nome']."', '".$_POST['email']."', '".$_POST['senha']."', '".$_POST['nascimento']."', '".$_POST['sexo']."')");
 	
 
 	var_dump($resultado);
