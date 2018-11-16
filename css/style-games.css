@@ -18,7 +18,7 @@ a:hover{
 	margin-left: 10%;
 	padding: 10px;
 	display: inline-block;
-	margin-bottom: 7%;
+	margin-bottom: 0;
 }
 
 .menucat{
@@ -69,14 +69,17 @@ a:hover{
 	color: white;
 
 }
+
 .img{
 	text-align: center;
 	margin: 0 auto;
 }
-img{
-	width: 70px;
-	height: 70px;
+
+.bg_jogo{
+	height: 130px;
+	width: auto;
 }
+
 body{
 	background: #DDE8E3;
 }
@@ -91,4 +94,10 @@ body{
 	color: white;
 	text-align: center;
 	clear: both;
+}
+
+
+/*conteudo*/
+span{
+	display: block;
 }
