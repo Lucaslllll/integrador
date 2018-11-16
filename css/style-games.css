@@ -1,7 +1,7 @@
 .games{
 	width: 80%;
 	height: auto;
-	background:	url(../imagens/fundo4.png);
+	background:	rgb(45, 180, 150);
 	background-repeat: repeat;
 	margin: 0 auto;
 	border: 2px double black;
@@ -87,15 +87,6 @@ body{
 	text-align: center;
 	padding: 5px;
 }
-.rodape{
-	margin-top: 200px;
-	padding: 20px;
-	background: #343a40;
-	color: white;
-	text-align: center;
-	clear: both;
-}
-
 
 /*conteudo*/
 span{
