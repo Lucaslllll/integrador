@@ -5,7 +5,7 @@
 }
 
 .bg{
-	background-image: url("../imagens/fundo4.png");
+	background: rgb(45, 180, 150);
 	/*background-repeat: no-repeat;*/
 	background-attachment: fixed;
 	background-position: center;
@@ -19,7 +19,7 @@
 
 /*Menu*/
 .navbar-dark, .bg-dark{
-	background: black !important;
+	background: rgb(100, 200, 180) !important;
 }
 
 .menu{
@@ -111,7 +111,7 @@
 /*Fim do carousel*/
 /*CONTEUDO*/
 .bg-gray{
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(100, 100, 100, 1);
 	color: white;
 }
 
@@ -122,10 +122,11 @@
 	height: 200px;
 	max-width: 100%;
 }
-
+ /*RODAPE GERAL*/
+ 
 .rodape-geral{
 	clear: both;
-	background: #343a40;
+	background: rgb(100, 100, 100);
 	text-align: center;
 	border-top: 1px double black;
 	border-bottom: 1px double black;
