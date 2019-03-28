@@ -16,7 +16,7 @@
 		<div class="row">
 
 			<nav class="menu navbar navbar-expand-lg navbar-dark bg-dark col-12">
- 				<a class="navbar-brand font-weight-bold" href="index.html">Repogames</a>
+ 				<a class="navbar-brand font-weight-bold" href="{% url 'url_home'%}">Repogames</a>
   				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
    					<span class="navbar-toggler-icon"></span>
   				</button>
@@ -24,16 +24,16 @@
 			  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			    	<ul class="navbar-nav mr-auto">
 				    	<li class="nav-item">
-				        	<a class="nav-link" href="index.html">Início<span class="sr-only">(current)</span></a>
+				        	<a class="nav-link" href="{% url 'url_home'%}">Início<span class="sr-only">(current)</span></a>
 				    	</li>
 				    	<li class="nav-item">
-				        	<a class="nav-link" href="games.html">Matérias</a>
+				        	<a class="nav-link" href="{% url 'url_games'%}">Matérias</a>
 				    	</li>
 				    	<li class="nav-item">
-				    		<a class="nav-link" href="contato.html">Contato</a>
+				    		<a class="nav-link" href="{% url 'url_contato'%}">Contato</a>
 				    	</li>
 				    	<li class="nav-item active">
-				        	<a class="nav-link" href="sobre.html">Sobre</a>
+				        	<a class="nav-link" href="{% url 'url_sobre'%}">Sobre</a>
 				    	</li>
 					</ul>
 			    	<form class="form-inline my-2 my-lg-0">
