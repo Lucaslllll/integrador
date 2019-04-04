@@ -1,0 +1,94 @@
+.games{
+	width: 80%;
+	height: auto;
+	background:	rgb(45, 180, 150);
+	background-repeat: repeat;
+	margin: 0 auto;
+	border: 2px double black;
+}
+a{
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.lado{
+	margin-left: 10%;
+	padding: 10px;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.menucat{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.navbar-brand{
+	color: white;
+}
+.navbar-brand:hover{
+	color: white;
+}
+.menu ul li{
+	display: inline-block;
+	margin: 0px 0px 0px 10px;
+}
+.menu ul li a{
+	color: white;  
+}
+
+/*iníciocores*/
+.cor{
+	background: transparent;
+	color: white;
+	border: 1px solid #DDE8E3;
+}
+.cor:hover{
+	background: #DDE8E3;
+	transition: 0.5s;
+}
+
+.cor2{
+	background: #212529;
+	color: white;
+	font-size: 18px;
+	padding: 5px;
+	border: 1px solid black;
+}
+.cor2:hover{
+	background: #DDE8E3;
+	transition: 0.5s;
+}
+/*fimcores*/
+
+.fo{
+	font-size: 0.8em;
+	color: white;
+
+}
+
+.img{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.bg_jogo{
+	height: 130px;
+	width: auto;
+}
+
+body{
+	background: #DDE8E3;
+}
+.detalhes{
+	text-align: center;
+	padding: 5px;
+}
+
+/*conteudo*/
+span{
+	display: block;
+}

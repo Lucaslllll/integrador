@@ -1,0 +1,44 @@
+.texto{
+	text-align: justify;
+	font-size: 18px;
+	font-family: "Times New Roman";
+}
+.menucat{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.navbar-brand{
+	color: white;
+}
+.navbar-brand:hover{
+	color: white;
+}
+.menu ul li{
+	display: inline-block;
+	margin: 0px 0px 0px 10px;
+}
+.menu ul li a{
+	color: white;  
+}
+.ce{
+	margin: 0 auto;
+	text-align: center;
+}
+.cor{
+	background: transparent;
+	color: white;
+	border: 1px solid #DDE8E3;
+}
+.cor:hover{
+	background: #DDE8E3;
+	transition: 0.5s;
+}
+
+img{
+	height: 150px;
+	width: 150px;
+}
+body{
+	background: #DDE8E3;
+}
