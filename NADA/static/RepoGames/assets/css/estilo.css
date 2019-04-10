@@ -26,9 +26,9 @@
 }
 
 /*Menu*/
-.navbar-dark, .bg-dark{
+/*.navbar-dark, .bg-dark{
 	background: rgb(100, 200, 180) !important;
-}
+}*/
 
 .menu{
 	background: white;
@@ -114,6 +114,12 @@
 	color: white;
 }
 
+.info-1{
+	z-index: 1 !important;
+}
+.info-2{
+	z-index: 2 !important;
+}
 
 /*Sobre o projeto*/
 
