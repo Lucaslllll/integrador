@@ -1,3 +1,11 @@
+/*Universal*/
+.bg-black{
+	background: black;
+}
+
+
+/*Imports*/
+
 @import url('https://fonts.googleapis.com/css?family=Istok+Web');
 *{
 	font-family: 'Istok Web', sans-serif;
@@ -86,19 +94,47 @@
 	height: 500px;
 }
 
+.carousel-caption h1{
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.2;
+	color: inherit;
+	margin-bottom: .5rem;
+}
+
+.carousel-caption p{
+	margin-bottom: 1.25rem;
+	font-size: 1.25rem;
+	line-height: 1.4;
+}
+
 /*CONTEUDO*/
 .bg-gray{
 	background: rgba(100, 100, 100, 1);
 	color: white;
 }
 
-/*Anuncio lateral*/
+
+/*Sobre o projeto*/
+
+.sobre-projeto{
+	margin-top: 100px;
+}
+.center-lateral{
+	position: relative;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+
+/*Anuncio lateral
 .anuncio-lateral{
 }
 .img-anuncio{
 	height: 200px;
 	max-width: 100%;
 }
+*/
  /*RODAPE GERAL*/
  
 .rodape-geral{
@@ -294,4 +330,3 @@ transition: 0.1s;
 	text-align: center;
 	border: 1px double #5F80AF;
 }
-*/
