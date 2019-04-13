@@ -10,67 +10,110 @@
 	<link rel="stylesheet" type="text/css" href="RepoGames/assets/css/estilo.css">
 </head>
 <body class="bg">
+
 	<div class="container-fluid">
+
+		<!--Inicio do Menu-->
 		<div class="row">
 			
 			<nav class="menu navbar navbar-expand-lg navbar-dark bg-dark col-12">
- 				<a class="navbar-brand font-weight-bold" href="{% url 'url_home'%}">Repogames</a>
-  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-   					<span class="navbar-toggler-icon"></span>
-  				</button>
+				<a class="navbar-brand font-weight-bold" href="/">Repogames</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-			  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			    	<ul class="navbar-nav mr-auto">
-				    	<li class="nav-item active">
-				        	<a class="nav-link" href="index.html">Início<span class="sr-only">(current)</span></a>
-				    	</li>
-				    	<li class="nav-item">
-				        	<a class="nav-link" href="games.html">Matérias</a>
-				    	</li>
-				    	<li class="nav-item">
-				    		<a class="nav-link" href="contato.html">Contato</a>
-				    	</li>
-				    	<li class="nav-item">
-				        	<a class="nav-link" href="sobre.html">Sobre</a>
-				    	</li>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link font-weight-bold" href="/">INÍCIO<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link font-weight-bold" href="/games.html">MATÉRIAS</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link font-weight-bold" href="/sobre.html">SOBRE</a>
+						</li>
 					</ul>
-			    	<form class="form-inline my-2 my-lg-0">
-			      		<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-			      		<button class="btn cor my-2 my-sm-0" type="submit">Buscar</button>
-			   		</form>
-			  	</div>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#"><button class="btn btn-outline-primary"><span class="font-weight-bold text-white">LOGIN</span></button></a>
+						</li>
+					</ul>
+				</div>
 			</nav>
 
-		</div>	
-
-		<div class="row">
-			<div class="fogo">
-				<img src="{% static 'RepoGames/assets/imagens/sem_imagem.png'%}"/>
-				<div class="cbt">
-					<button type="button" class="d btn">Executar</button>
-					<button type="button" class="d btn">Baixar</button>
+		</div>
+	</div>	
+	<!--Fim do Menu-->
+	<!-- INICIO DO CONTEUDO -->
+	<div class="container">
+		<div class="row mt-5">
+			<div class="col-8 border border-dark rounded pt-3 pb-3 pl-4 pr-4">
+				<div class="text-center">
+					<h2 class="font-weight-bold">Lorem</h2>	
+				</div>
+				<div class="text-justify border-bottom border-dark">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="container">
+					<div class="row mt-2 mb-2">
+						<div class="col-12">
+							<div class="text-center">
+								<h3>Imagens</h3>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-4">
+							<img src="imagens/sem_imagem.png" class="w-100 rounded" />
+						</div>
+						<div class="col-4">
+							<img src="imagens/sem_imagem.png" class="w-100 rounded" />
+						</div>
+						<div class="col-4">
+							<img src="imagens/sem_imagem.png" class="w-100 rounded" />
+						</div>
+					</div>
 				</div>
 			</div>
-			
-			<div class="text">
-				<h1>Nome do game</h1>
-					ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			<div class="col-4">
+				<div class="border-dark border rounded pb-1">
+					<div>
+						<img src="imagens/sem_imagem.png" class="w-100 rounded-top" />
+						<a href="#" class="btn btn-success w-100 rounded-0">Baixar</a>
+					</div>
+					<div class="mt-2">
+						<table class="table table-hover">
+							<tr>
+								<td class="text-right">Autor</td>
+								<td class="text-left">IFRN</td>
+							</tr>
+							<tr>
+								<td class="text-right">Tamanho</td>
+								<td class="text-left">10 Megabyte</td>
+							</tr>
+							<tr>
+								<td class="text-right">Lançamento</td>
+								<td class="text-left">12/04/2019</td>
+							</tr>
+						</table>
+					</div>
+				</div>
 			</div>
-			
-			
 		</div>
-
-
+	</div>
+	<div class="container-fluid mt-4">
 		<div class="row">
-			<div class="rodape-geral">
-				<div class="rodape-conteudo">
-					<h5>Todos os direitos Reservados</h5>
-					<h6><span>RepoGames</span></h6>
+			<div class="col-12 border-top border-dark">
+				<div class="pb-5 pt-5">
+					<h3 class="font-weight-bold text-center center-lateral">
+						RODAPE
+					</h3>
 				</div>
 			</div>
 		</div>
