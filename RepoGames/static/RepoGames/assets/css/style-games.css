@@ -1,4 +1,4 @@
-.games{
+/*.games{
 	width: 80%;
 	height: auto;
 	background:	rgb(45, 180, 150);
@@ -39,9 +39,9 @@ a:hover{
 .menu ul li a{
 	color: white;  
 }
-
+*/
 /*iníciocores*/
-.cor{
+/*.cor{
 	background: transparent;
 	color: white;
 	border: 1px solid #DDE8E3;
@@ -63,7 +63,7 @@ a:hover{
 	transition: 0.5s;
 }
 /*fimcores*/
-
+/*
 .fo{
 	font-size: 0.8em;
 	color: white;
@@ -79,16 +79,32 @@ a:hover{
 	height: 130px;
 	width: auto;
 }
-
+*//*
 body{
 	background: #DDE8E3;
 }
 .detalhes{
 	text-align: center;
 	padding: 5px;
-}
+}*/
 
 /*conteudo*/
-span{
+/*span{
 	display: block;
+}*/
+
+
+/*EDitando a pagina de busca por games*/
+.buscar input{
+	border-radius: 5px 0px 0px 5px;
+}
+
+.buscar button{
+	border-radius: 0 5px 5px 0;
+}
+
+
+/*EDitando a lista de games*/
+.games-list a:hover{
+	text-decoration: none;
 }
